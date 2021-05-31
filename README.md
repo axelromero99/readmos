@@ -106,7 +106,7 @@ Special thanks to Gaston Chifflets, Ignacio Liotti, Juan Gabriel Caceres Braun, 
 
 ## License 📄
 
-This project is under the License (Your License) - see the file [LICENSE](LICENSE.md) for details.
+This project is under the License (MIT License) - see the file [LICENSE](LICENSE.md) for details.
 
 ## Express your gratitude 🎁
 
