@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- StTYLES FOR DEMOS -->
-    <link rel="stylesheet" href="readmos/styleForDemos.css">
+    <link rel="stylesheet" href="demos/styleForDemos.css">
 
     <!-- Github markdown style -->
     <link rel="stylesheet" href="readmos/github-markdown.css">
@@ -23,32 +23,55 @@
 
     <!-- READMOS WRAPPER-->
 
-    <!-- Here you have to replace USER with your github user -->
+    <!-- Here you have to replace "axelromero99" with your github user -->
     <div class="readmosWrapper" id="https://api.github.com/users/axelromero99/repos">
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="./demos/images/arrecode.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">READMOS</h5>
-                <p class="card-text">Javascript library for showing the README.md of your repositories.</p>
-                <a href="#" class="btn btn-primary">See this project</a>
+                <h5 class="card-title">ARRE[CODE]</h5>
+                <p class="card-text">ReactJS Web Portfolio.</p>
+
+                <!-- This is the button of your repository -->
+                <!-- In the id, you have to replace "readmos" with your repository name -->
+                <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="arrecode">
+                Open project
+                </button>
             </div>
         </div>
 
-        <!-- This is the button of your repository -->
-        <!-- *You need to have the class readmosBtn mandatorily* -->
-        <!-- In the id, you have to replace REPONAME with your repository name -->
-        <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="readmos">
-            Open project 1
-        </button>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./demos/images/readmos.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">READMOS</h5>
+                <p class="card-text">Javascript library for showing the README.md of your repositories.</p>
+                <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="readmos">
+                Open project
+                </button>
+            </div>
+        </div>
 
-        <!-- You can add as many buttons as you want! Just change the id with the correct name -->
-        <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="readmos">
-            Open project 2
-        </button>
-        <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="awesome-github-profile-readme-templates">
-            Open project 3
-        </button>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./demos/images/mg-construcciones.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">MG CONSTRUCCIONES</h5>
+                <p class="card-text">ReactJS Web for a construction enterprise.</p>
+                <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mg-construcciones">
+                Open project
+                </button>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./demos/images/pixnotes.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">PIXNOTES</h5>
+                <p class="card-text">Python Web Application for taking notes, with login system, authentication and database. Styled with Bootstrap and NES.css.</p>
+                <button type="button" class="btn btn-primary readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="pixnotes">
+                Open project
+                </button>
+            </div>
+        </div>
     </div>
 
 
@@ -57,7 +80,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

@@ -1,0 +1,28 @@
+#projectName {
+    text-align: center;
+    margin: 30px;
+}
+
+.readmosWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card div,
+.card img,
+.card h5 {
+    flex: 1;
+    width: 100%
+}
+
+.card-body {
+    text-align: center;
+}
