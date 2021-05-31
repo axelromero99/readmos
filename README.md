@@ -108,14 +108,12 @@ Special thanks to Gaston Chifflets, Ignacio Liotti, Juan Gabriel Caceres Braun, 
 
 This project is under the License (Your License) - see the file [LICENSE](LICENSE.md) for details.
 
-## Expresiones de Gratitud 🎁
+## Express your gratitude 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
+* Tell others about this project 📢
+* Invite me a [Cafecito](https://cafecito.app/arrecode)
+* I am already grateful that you have seen my project!
 
 
 ---
-Desarrollado con ❤️ por [arre[code]](https:www.arrecode.com) 
+Developed with ❤️ by [Axel René Romero Esquivel [ arre[code] ]](https:www.arrecode.com) 
