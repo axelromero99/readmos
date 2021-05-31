@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- READMOS STYLE (not necessary, it exist just for styling the example) -->
+    <link rel="stylesheet" href="readmosStyle.css">
+    <!-- Github markdown style -->
+    <link rel="stylesheet" href="readmos/github-markdown.css">
+    <title>Readmos library</title>
+</head>
+
+<body>
+    <h1 id="projectName">Readmos library</h1>
+    <h2 id="projectSubtitle">By <a href="https://arrecode.com">arre[code]</a></h2>
+    <!-- READMOS WRAPPER -->
+    <!-- Replace the USER with your github user -->
+    <div class="readmosWrapper" id="https://api.github.com/users/axelromero99/repos">
+
+        <!-- READMOS BUTTON -->
+        <!-- You need to have the class "readmosBtn" mandatorily -->
+        <!-- This is the button that triggers the display of the README.md of your repository -->
+        <!-- You can put this div wherever you want! It is not necessary to put it inside the readmosWrapper, but for organization it is created like this  -->
+        <!-- Replace REPONAME with the name of your repository -->
+        <button class="readmosBtn" id="REPONAME">Open project 1</button>
+
+        <!-- You can add as many buttons as you want! -->
+        <!-- Just change the id with the correct data -->
+        <button class="readmosBtn" id="test_for_github_icons">Open project 2</button>
+        <button class="readmosBtn" id="awesome-github-profile-readme-templates">Open project 3</button>
+    </div>
+
+    <!-- READMOS DISPLAY -->
+    <!-- You need to have the class "markdown-body" and "readmosContent" mandatorily -->
+    <!-- Here is displayed the content of the readme.MD -->
+    <!-- You can put this div wherever you want! -->
+    <div class="markdown-body readmosContent"></div>
+
+    <!-- =========================================================== -->
+    <!-- THIRDS LIBRARIES USED FOR READMOS -->
+    <script type="text/javascript" src="readmos/purify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="readmos/emojis.js"></script>
+    <!-- READMOS SCRIPT -->
+    <script src="readmos/readmos.js"></script>
+</body>
+
+</html>
