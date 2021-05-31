@@ -66,9 +66,12 @@ This is the basic template ( named "readmos.html" in this repository ). The inst
 
 </html>
 ```
-If you want the library to work correctly, don't delete any class ( except of "markdown-body", if you don't want the github style for the content ) 
 
-You can put the { READMOS BUTTONS } wherever you want, it is not necessary to have them inside the { READMOS WRAPPER }. The same for the { READMOS CONTENT }.
+### Aclarations 📋
+
+* If you want the library to work correctly, don't delete any class ( except of "markdown-body", if you don't want the github style for the content ) 
+* You can put the { READMOS BUTTONS } wherever you want, it is not necessary to have them inside the { READMOS WRAPPER }. The same for the { READMOS CONTENT }.
+* The { READMOS BUTTONS } does not need to be a button tag, it can be any tag you want ( like a div, a img, a span, etc. )
 
 :star: And that's all! It should work if you read all the instructions and replace the correct items with your information. :star:
 
