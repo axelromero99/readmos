@@ -25,7 +25,7 @@ You only need to download or clone this repository. All the code is inside the "
 
 This is the basic template ( named "readmos.html" in this repository ). The instructions are easy, just read the comments.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
