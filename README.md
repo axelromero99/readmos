@@ -17,6 +17,7 @@ Every programmer should have a Github, and every programmer should  have his own
 READMOS is open source! Feel free to contribute to this project.
 
 ### Live Demos 
+You can replace the data with your Github user and the name of your repositories if you want.
 * [Live basic template](https://codesandbox.io/s/readmosbasic-thcy5)
 * [Live Bootstrap 5 template](https://codesandbox.io/s/readmosbootstrap-7ek73?file=/index.html)
 
