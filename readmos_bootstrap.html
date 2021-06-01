@@ -9,8 +9,8 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <!-- StTYLES FOR DEMOS -->
-    <link rel="stylesheet" href="demos/styleForDemos.css">
+    <!-- STYLES BOOTSTRAP STRUCTURE -->
+    <link rel="stylesheet" href="./readmos_bs_source/styleForDemos.css">
 
     <!-- Github markdown style -->
     <link rel="stylesheet" href="readmos/github-markdown.css">
@@ -22,91 +22,69 @@
     <h1 id="projectName">Readmos library</h1>
 
     <!-- READMOS WRAPPER-->
-
-    <!-- Here you have to replace "axelromero99" with your github user -->
-    <div class="readmosWrapper" id="https://api.github.com/users/axelromero99/repos">
+    <!-- Here you have to replace "USER" with your github user -->
+    <div class="readmosWrapper" id="https://api.github.com/users/USER/repos">
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./demos/images/arrecode.png" alt="Card image cap">
+            <!-- Put your images inside the ./readmos_bs_source/images folder -->
+            <!-- Replace the "PROJECTIMAGE" with the name of your image -->
+            <img class="card-img-top" src="./readmos_bs_source/images/PROJECTIMAGE.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">ARRE[CODE]</h5>
-                <p class="card-text">ReactJS Web Portfolio.</p>
+                <h5 class="card-title">Your project name</h5>
+                <p class="card-text">This is a little description of your project.</p>
 
                 <!-- This is the button of your repository -->
-                <!-- In the id, you have to replace "readmos" with your repository name -->
-                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="arrecode">
+                <!-- In the id, you have to replace "REPONAME" with your repository name -->
+                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="REPONAME">
                 Open project
                 </button>
             </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./demos/images/readmos.png" alt="Card image cap">
+            <img class="card-img-top" src="./readmos_bs_source/images/PROJECTIMAGE2.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">READMOS</h5>
-                <p class="card-text">Javascript library for showing the README.md of Github repositories in your web.</p>
-                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="readmos">
+                <h5 class="card-title">Your project 2 name</h5>
+                <p class="card-text">This is a little description of your project 2.</p>
+                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="REPONAME2">
                 Open project
                 </button>
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./demos/images/mg-construcciones.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">MG CONSTRUCCIONES</h5>
-                <p class="card-text">ReactJS Web for a construction enterprise.</p>
-                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="mg-construcciones">
-                Open project
-                </button>
-            </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./demos/images/pixnotes.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">PIXNOTES</h5>
-                <p class="card-text">Python Web Application for taking notes, with login system, authentication and database. Styled with Bootstrap and NES.css.</p>
-                <button type="button" class="btn btn-dark readmosBtn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="pixnotes">
-                Open project
-                </button>
-            </div>
-        </div>
-    </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- { READMOS CONTENT } -->
+                        <!-- Here is displayed the content of the readme.MD -->
+                        <!-- If you don't want the github style, delete the class "markdown-body" -->
+                        <div class="markdown-body readmosContent"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- { READMOS CONTENT } -->
-                    <!-- Here is displayed the content of the readme.MD -->
-                    <!-- If you don't want the github style, delete the class "markdown-body" -->
-                    <div class="markdown-body readmosContent"></div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- THIRDS LIBRARIES-->
-    <!-- =========================================================== -->
-    <!-- THIRDS LIBRARIES USED FOR READMOS -->
-    <script type="text/javascript" src="readmos/purify.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="readmos/emojis.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <!-- READMOS SCRIPT -->
-    <script src="readmos/readmos.js"></script>
+        <!-- THIRDS LIBRARIES-->
+        <!-- =========================================================== -->
+        <!-- THIRDS LIBRARIES USED FOR READMOS -->
+        <script type="text/javascript" src="readmos/purify.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="readmos/emojis.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!-- READMOS SCRIPT -->
+        <script src="readmos/readmos.js"></script>
 </body>
 
 </html>
