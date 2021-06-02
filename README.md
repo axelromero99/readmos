@@ -6,15 +6,15 @@
 
 </h1>
 
-_The solution for having your Github and your web updated, with less effort._
+_The solution to having your Github and your web updated, with less effort._
 
 
-READMOS is a Javascript library that provides you a way to show in your web page the README.md of any Github repositories, using the Github API and others third libraries. You can choose what repositories show, just need to provide the Github username and the name of the repositories.
+READMOS is a Javascript library that provides you a way to show the README.md of any Github repositories in your web page, using the Github API and others third libraries. You can choose what repositories you want to show, you just have to provide the Github username and the name of the repositories.
 
 
-Every programmer should have a Github, and every programmer should  have his own web portfolio.  Using READMOS you save a lot of time! You only have to update de README.md of your repositories if you make any change and your web page will be always updated with the last information.  
+Every programmer should have a Github, and every programmer should have his own web portfolio. Using READMOS you can save a lot of time! You only have to update the README.md of your repositories, that way if you make any changes your web page will be always updated with the latest information.
 
-READMOS is open source! Feel free to contribute to this project.
+READMOS is **open source**! Feel free to contribute to this project.
 
 ### Live Demos 
 You can replace the data with your Github user and the name of your repositories if you want.
@@ -48,13 +48,13 @@ cd readmos
 Open **readmos.html** for the basic template or **readmos_bootstrap.html** for a more structured and styled result.
 
 
-🌟 You have all the necessary! 🌟
+🌟 You have all you need! 🌟
 
 ---
 
 ### Setup with the basic template 🔧
 
-This is the basic template ( readmos.html ). It is the best option if you want to integrate in your web the library in the most simple way and give it the style, structure and extra functionalities.
+This is the basic template ( readmos.html ). If you want to integrate the library to your web in the most simple way and give it style, structure and extra functionalities, this is the best option to do so.
 
 You need to provide your Github **USER** and as many repositories **REPONAME** you want to show.
 
@@ -104,7 +104,7 @@ _For this template, you only need to have the readmos folder and the readmos.htm
 
 ### Setup with the bootstrap template 🔧
 
-With this template ( readmos_bootstrap.html ) you will have imported Bootstrap 5 framework with a implementation of READMOS using the [cards](https://getbootstrap.com/docs/5.0/components/card/), [modal](https://getbootstrap.com/docs/5.0/components/modal/) and [button](https://getbootstrap.com/docs/5.0/components/buttons/) components. It is a good start if you want to have an easy structure, styling and form to show the README.md in your web.
+With this template ( readmos_bootstrap.html ) you will have imported Bootstrap 5 framework with an implementation of READMOS using the [cards](https://getbootstrap.com/docs/5.0/components/card/), [modal](https://getbootstrap.com/docs/5.0/components/modal/) and [button](https://getbootstrap.com/docs/5.0/components/buttons/) components. It is a good start if you want to have an easy structure, styling and form to show the README.md in your web.
 
 You need to provide your Github **USER** and as many repositories **REPONAME** you want to show, as well. 
 
