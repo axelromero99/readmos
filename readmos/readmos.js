@@ -6,6 +6,7 @@
 // Linkedin: https://www.linkedin.com/in/arrecode/
 // *******************************************************
 
+
 // Only runs when the DOM is ready to receive actions
 document.addEventListener("DOMContentLoaded", function() {
     //  Github emojis object from the emojis.js script
@@ -73,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         response.text().then(function(text) {
             // In this line we use marked library to parse the MD to HTML
-            let dirty = marked(text);
+            let dirty = marked.parse(text);
             // Calling function to replace all the icon syntax of github with the respective icon image
             dirty = replaceIcons(dirty);
             // In this line we use DOMPurify library to purify the HTML and show it correctly
