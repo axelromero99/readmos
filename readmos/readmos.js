@@ -1,6 +1,7 @@
 // READMOS LIBRARY
 // *******************************************************
 // Author: Axel René Romero Esquivel
+// Emilio Furrer
 // Web: https://www.arrecode.com
 // Github: https://github.com/axelromero99
 // Linkedin: https://www.linkedin.com/in/arrecode/
